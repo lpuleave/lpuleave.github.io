@@ -107,7 +107,7 @@ function LeaveForm() {
       try {
         setIsPending(true);
         setServerData(" ");
-        const res = await axios.post("http://44.211.147.71/api/leave", {
+        const res = await axios.post("https://lpuleave.me//api/leave", {
           lpuId,
           password,
           term,
